@@ -1,0 +1,11 @@
+Author: Mart Simisker
+
+Use instructions:
+Use MinGW for ensured performance.
+
+program.exe + parameters
+parameters: type, k, n, t, r, sys, s
+
+type = 0, 1, 2 // search all Batch codes; Choose cols and search all batch codes; Search  all PIR codes
+
+Upon finding a code, the program prints 'code' in the console.

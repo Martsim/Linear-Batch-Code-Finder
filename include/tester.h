@@ -53,15 +53,13 @@ public:
 
 	/**
 	* Runs all possible requests for current generator matrix using multicombinations.
-	* @param method - chosen search method 0 - usual recursive, 1- recursive + presearch, 2 - recursive multicol
 	* @return - true, if all tests pass - matrix is code. Oterwise false.
 	*/
 	bool runAllTests();
 
 
     /**
-	* Runs all possible requests for current generator matrix with chosen fillmethod.
-	* @param method - chosen search method 0 - usual recursive, 1- recursive + presearch, 2 - recursive multicol
+	* Runs all possible requests for current generator matrix.
 	* @return - true, if all tests pass - matrix is code. Oterwise false.
 	*/
 	bool runAllTestsForPIRCode();
